@@ -23,5 +23,5 @@ pandoc $1 -o $2 \
 
 if [ $? -eq 0 ]
 then
-	nohup "$PDF" $2 &
+	nohup "$PDF" $2 >/dev/null 2>&1 &
 fi
