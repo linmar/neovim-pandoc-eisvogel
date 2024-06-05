@@ -22,3 +22,10 @@ Beautify markdown in neovim using pandoc and icevogel
 ## Subtitle
 
 some bla bla bla
+
+**USAGE**
+
+```sh
+./docgenerator.sh README.md README.pdf
+```
+
